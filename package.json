@@ -4,7 +4,7 @@
   "description": "A password hash generator",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "dependencies": {
     "bcrypt": "^0.8.7",
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/jacobwylie/npm-basics/issues"
   },
-  "homepage": "https://github.com/jacobwylie/npm-basics#readme"
+  "homepage": "https://github.com/jacobwylie/npm-basics#readme",
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
 }
