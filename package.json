@@ -1,0 +1,23 @@
+{
+  "name": "basics",
+  "version": "0.0.1",
+  "description": "A password hash generator",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcrypt": "^0.8.7",
+    "colors": "^1.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacobwylie/npm-basics.git"
+  },
+  "author": "Jacob Wylie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jacobwylie/npm-basics/issues"
+  },
+  "homepage": "https://github.com/jacobwylie/npm-basics#readme"
+}
